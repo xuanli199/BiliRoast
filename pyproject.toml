@@ -1,0 +1,11 @@
+[project]
+name = "biliroast"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.10.2",
+    "openai>=1.93.0",
+    "requests>=2.32.4",
+]
