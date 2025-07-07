@@ -36,7 +36,7 @@ uv sync
         "api_key": "魔搭社区key",
         "page": "1"
       }
-    },
+    }
   }
 }
 ```
