@@ -7,6 +7,12 @@
 
 1. clone 项目代码。
 
+```
+git clone https://github.com/xuanli199/BiliRoast
+```
+
+或者到 [https://github.com/xuanli199/BiliRoast](https://github.com/xuanli199/BiliRoast) 下载代码。
+
 2. 使用 uv 安装项目依赖。
 
 ```bash
