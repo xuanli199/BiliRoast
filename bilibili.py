@@ -57,7 +57,7 @@ def rui_ping(host_mid: str) -> str:
             return "无法获取该UP主的动态内容，请检查mid是否正确"
 
         # 构建提示词
-        prompt = f"使用{MAX_CONTENT_LENGTH}字，根据up主页的内容，尖锐刻薄恶毒的锐评一下哔哩哔哩的该up主，要让当事人看了之后会生气，评价要有理有据，内容精准，可以适当猜测up主的性格，并真的性格嘲讽，主页内容：{dynamic_content}"
+        prompt = f"使用{MAX_CONTENT_LENGTH}字，根据up主页的内容，尖锐刻薄恶毒的锐评一下哔哩哔哩的该up主，要让当事人看了之后会生气，评价要有理有据，内容精准，可以适当针对up主的性格，并真的性格嘲讽，主页内容：{dynamic_content}"
 
         # 调用AI生成锐评
         response = client.chat.completions.create(
